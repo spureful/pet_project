@@ -1,0 +1,73 @@
+
+
+
+body {
+    font-family: 'roboto', arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.875;
+	
+	background-color: #ede9e0;
+
+}
+
+
+.container {
+
+    width: 941px;
+    margin: 0 auto;
+	
+	padding: 0 42px;
+}
+
+
+
+/*прибиваем футер*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+}
+
+
+
+.footer {
+    height: 135px;
+	min-width: 1025px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -135px;
+    position: relative;
+	overflow: hidden;
+	min-width: 1025px;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    height: 135px;
+}
+
+/* /прибиваем футер*/
+
+.clearfix,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.content__title {
+	font-family:'fira_sans', arial, sans-serif;
+	font-style: 36px;
+	text-transform: full-width;
+	font-weight: 500;
+}
