@@ -1,0 +1,8 @@
+/*
+svg {ass="svgicon" width="26" height="20
+}
+use xlink:href="img/icons/sprite.svg#twitter"></use
+}*/
+.social__svg {
+    fill: yellow;
+}
