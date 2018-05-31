@@ -1,0 +1,68 @@
+.rewiews {
+    margin-bottom: 200px;
+}
+
+.rewiews__title {
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.rewiews__content {
+
+    width: 465px;
+    float: left;
+
+    margin-right: 15px;
+    
+    background-image: url(../../img/quotes.svg);
+    background-repeat: no-repeat;
+}
+
+
+.rewiews__content-titletxt {
+
+    font-family: 'fira_sans', arial, sans-serif;
+    font-size: 24px;
+
+
+    padding-top: 83px;
+
+    text-transform: capitalize;
+}
+
+.rewiews__content-date {
+    font-family: 'roboto', Arial, sans-serif;
+    font-style: italic;
+    color: #737274;
+}
+
+.rewiews__content-text {
+  font-weight: 500;  
+    
+}
+
+.rewiews__photo {
+    float: right;
+}
+
+.rewiews__photo-img {
+    
+    border-radius: 10px;
+    
+    margin: 40px 0 30px;
+    
+  box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.4);
+ 
+}
+
+.rewiews__photo-text {
+    color: #939191;
+}
+
+.rewiews__photo-link {
+    color: #4d1eab;
+    text-decoration: none;
+    font-weight: 500;
+}
+

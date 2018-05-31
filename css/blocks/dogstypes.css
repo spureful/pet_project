@@ -1,0 +1,81 @@
+.dogstypes {
+    margin-bottom: 80px;
+}
+.dogstypes__title {
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.dogstypes__list{
+    margin-left: -15px;
+}
+
+
+.dogstypes__list {
+    padding: 0;    
+}
+.dogstypes__item {
+    list-style: none;
+
+  float: left;
+
+    margin-right: 15px;
+    margin-bottom: 55px;
+    width: 460px;
+}
+
+
+.dogstypes__item-name {
+    margin-bottom: 10px;
+}
+
+.dogstypes__item-title {
+    font-family: 'fira_sans', arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.dogstypes__item-photo {
+    float: left;
+
+    margin-right: 15px;
+}
+
+.dogstypes__item-img {
+    border-radius: 50%;
+}
+
+.dogstypes__item-contentblock {
+    /*    float: left;*/
+}
+
+.dogstypes__item-text {
+    color: #737274;
+}
+
+
+.dogstypes__item-link {
+    font-family: 'fira_sans', arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4716a8;
+
+    position: relative;
+
+}
+
+.dogstypes__item-link:after {
+    content: '';
+    display: block;
+    background-image: url(../../img/arrow_next.svg);
+
+    width: 20px;
+    height: 14px;
+
+    position: absolute;
+    left: 155px;
+    top: 3px;
+
+
+}

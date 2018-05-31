@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content__title {
 	font-family:'fira_sans', arial, sans-serif;
-	font-style: 36px;
+	font-size: 36px;
 	text-transform: full-width;
 	font-weight: 500;
 }
