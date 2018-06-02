@@ -1,13 +1,13 @@
 .dogstypes {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .dogstypes__title {
-    margin: 0 auto 80px;
+    margin: 0 auto 70px;
     text-align: center;
 }
 
 .dogstypes__list{
-    margin-left: -15px;
+    margin-left: -20px;
 }
 
 
@@ -19,14 +19,14 @@
 
   float: left;
 
-    margin-right: 15px;
-    margin-bottom: 55px;
+    margin-left: 20px;
+    margin-bottom: 90px;
     width: 460px;
 }
 
 
 .dogstypes__item-name {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .dogstypes__item-title {
@@ -45,12 +45,11 @@
     border-radius: 50%;
 }
 
-.dogstypes__item-contentblock {
-    /*    float: left;*/
-}
+
 
 .dogstypes__item-text {
     color: #737274;
+	margin-bottom: 10px;
 }
 
 

@@ -1,0 +1,47 @@
+.footer{
+	z-index: 10;
+}
+
+.container_footer{
+	position: relative;
+}
+
+.container_footer:before {
+	content: '';
+	display: block;
+	
+	width: 941px;
+	height: 2px;
+	
+	background-color: #d5d1ca;
+	
+	position: absolute;
+	top: 0;
+	left: 40;
+}
+
+.footer__left{float: left;}
+
+.menu__link_footer{
+	margin-top: 20px;
+	color: #737274;}
+
+.footer__right{
+	float: right;
+}
+
+.social__list_footer {
+	margin-top: 20px;
+}
+
+.social__item_footer{
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.social__svg_footer {
+	fill: #510fad;
+}
+
+
+.social__svg_footer:hover {fill:red;}

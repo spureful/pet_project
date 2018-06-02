@@ -1,5 +1,5 @@
 .header {
-	margin-bottom: 85px;
+	margin-bottom: 165px;
 }
 
 
@@ -15,7 +15,9 @@
 
 }
 
-
+.header__row{
+	margin-bottom: 120px;
+}
 .logo {
 	float: left;
 
@@ -29,8 +31,8 @@
 .menu__list {
 	float: right;
 	
-	padding: 0;
-	margin-top: 25px;
+	margin-top: 27px;
+	
 }
 
 .menu__item {
@@ -43,14 +45,15 @@
 	margin-right: 0;
 }
 
-.menu__link_header {
+.menu__link {
 	font-family: 'roboto', arial, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
-	color: #202020;
 	text-decoration: none;
 	
 }
+
+.menu__link_header {color: #202020;}
 
 .menu__link_phone {
 	color: #510fad;
@@ -59,9 +62,11 @@
 
 .header__motto {
 	float: right;
-	width: 67%;
+	width: 625px;
 	
-	margin-top: 131px;
+	padding-left: 15px;
+	
+
 }
 
 .header__motto-title {
@@ -71,7 +76,8 @@
 	
 	line-height: 1.25;
 	
-	margin-bottom: 20px;
+	margin-bottom: 27px;
+	
 }
 
 .header__motto-text {
