@@ -1,6 +1,8 @@
 .blog {
 
-	background-color: #510fad;
+	background: #510fad;
+    background-image: url(../../img/blog_bg.jpg);
+    background-repeat: repeat;
 	width: 1025px;
 
 	padding: 105px 0;
