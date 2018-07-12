@@ -15,9 +15,10 @@
 
 }
 
-.header__row{
+.header__row {
 	margin-bottom: 120px;
 }
+
 .logo {
 	float: left;
 
@@ -27,74 +28,86 @@
 	margin-top: 10px;
 }
 
+.menu {
+
+	float: right;
+	margin-top: 27px;
+}
+
+.header__nav {
+	float: left;
+}
 
 .menu__list {
 	float: right;
-	
-	margin-top: 27px;
-	
+
+
+
 }
 
 .menu__item {
 	display: inline-block;
-	
+
 	margin-right: 25px;
 }
 
-.menu__item:last-child {
-	margin-right: 0;
-}
+
 
 .menu__link {
 	font-family: 'roboto', arial, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
-	
+
 }
 
-.menu__link_header {color: #202020;}
+.menu__link_header {
+	color: #202020;
+}
 
 .menu__link_phone {
 	color: #510fad;
+	display: inline-block;
+
+
 }
 
 
 .header__motto {
 	float: right;
 	width: 625px;
-	
+
 	padding-left: 15px;
-	
+
 
 }
 
 .header__motto-title {
-	font-family: 'fira_sans',  arial, sans-serif;
+	font-family: 'fira_sans', arial, sans-serif;
 	font-size: 48px;
 	font-weight: 500;
-	
+
 	line-height: 1.25;
-	
+
 	margin-bottom: 27px;
-	
+
 }
 
 .header__motto-text {
 	margin-left: 13px;
-	
+
 	position: relative;
-	}
+}
 
 .header__motto-text:before {
 	content: '';
 	display: block;
-	
+
 	width: 2px;
 	height: 20px;
-	
+
 	background-color: #510fad;
-	
+
 	position: absolute;
 	left: -13px;
 	top: 5px;
